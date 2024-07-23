@@ -1,8 +1,6 @@
-* {
-    box-sizing: border-box;
-}
-
 header {
+    box-sizing: border-box;
+    font-family: sans-serif;
     margin: 0;
     padding: 0;
     border: 0;
@@ -11,9 +9,13 @@ header {
     overflow: hidden;
 }
 
+header h1 {
+    text-align: center;
+}
+
 .world-map {
     width: 100%;
-    max-width: 1100px;
+    max-width: 1800px;
     margin: 0 auto;
     padding: 1em;
     position: relative; 
@@ -26,7 +28,7 @@ header {
 }
 
 .pin {
-    background: red;
+    background: green;
     position: absolute;
     width: 10px;
     height: 10px;
@@ -35,7 +37,7 @@ header {
 
 .pin::before {
     content: '';
-    background: pink;
+    background: green;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -46,60 +48,57 @@ header {
     animation: pulse 1.3s ease-in-out infinite;
 }
 
+@keyframes pulse {
+    100% {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(2.5);
+    }
+}
+
 .china {
-    left: 77.3%;
-    top: 51%;
+    left: 78.8%;
+    top: 29%;
 }
 
 .petra {
-    left: 56.6%;
-    top: 54.5%
+    left: 58.6%;
+    top: 35%
 }
 
 .colosseum {
-    left: 50%;
-    top: 49.5%;
+    left: 52%;
+    top: 27.5%;
 }
 
 .chichen {
-    left: 22.7%;
-    top: 59.3%;
+    left: 24.8%;
+    top: 42.7%;
 }
 
 .machu {
-    left: 26.8%;
-    top: 72.8%
+    left: 28.5%;
+    top: 66.5%
 }
 
 .taj {
-    left: 67.3%;
-    top: 56.5%;
+    left: 70%;
+    top: 39%;
 }
 
 .christ {
-    left: 34.9%;
-    top: 75.4%
+    left: 37.5%;
+    top: 72.5%
 }
 
 .popup{
-    width: 400px;
+    width: 500px;
+    height: 500px;
     background-color: gray;
     border-radius: 6px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-align: center;
     padding: 0 30px 30px;
-    color: #333;
     visibility: hidden;
-}
-
-
-
-@keyframes pulse {
-    100% {
-        opacity: 0;
-        transform: translate(-50%, -50%) scale(2.5);
-    }
 }

@@ -5,13 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>7 Wonders Of The World</title>
-  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/map.css">
 </head>
 
 <body>
   <header>
     <h1>7 Wonders Of The World</h1>
-    <!--insert image of map here-->
     <section class="world-map">
       <img src="./assets/images/worldmap.svg" alt="world map">
       <div class="pin china"></div>
@@ -21,100 +20,27 @@
       <div class="pin machu"></div>
       <div class="pin taj"></div>
       <div class="pin christ"></div>
+
+      <div class="popup">
+        <h2>null</h2>
+        <p id="location"></p>
+        <p id="built"></p>
+        <button id="close">CLOSE</button>
+        <button id="more">MORE</button>
+      </div>
+
     </section>
-
-    <div class="popup">
-      <h2>Test</h2>
-      <p>Testing PopUp</p>
-      <button id="close">OK</button>
-    </div>
-
   </header>
+
   <main>
-    <section class="wonder" id="">
-      <h2></h2>
-      <h3></h3>
-      <p></p>
-      <h4></h4>
-      <!--<img src="" alt="">-->
-
-    </section>
-
-    <section class="wonder" id="">
-      <h2></h2>
-      <h3></h3>
-      <p></p>
-      <h4></h4>
-      <!--<img src="" alt="">-->
-
-    </section>
-
-    <section class="wonder" id="">
-      <h2></h2>
-      <h3></h3>
-      <p></p>
-      <h4></h4>
-      <!--<img src="" alt="">-->
-
-    </section>
-
-    <section class="wonder" id="">
-      <h2></h2>
-      <h3></h3>
-      <p></p>
-      <h4></h4>
-      <!--<img src="" alt="">-->
-
-    </section>
-
-    <section class="wonder" id="">
-      <h2></h2>
-      <h3></h3>
-      <p></p>
-      <h4></h4>
-      <!--<img src="" alt="">-->
-
-    </section>
-
-    <section class="wonder" id="">
-      <h2></h2>
-      <h3></h3>
-      <p></p>
-      <h4></h4>
-      <!--<img src="" alt="">-->
-
-    </section>
-
-    <section class="wonder" id="">
-      <h2></h2>
-      <h3></h3>
-      <p></p>
-      <h4></h4>
-      <!--<img src="" alt="">-->
-
-    </section>
-
-
-
-
-
-
+    <section id="test"></section>
   </main>
 
-
-
-
-
-
-
-  <script src="./assets/js/script.js"></script>
   <footer>
-
-
-
-
     <p>© 2024 7 Wonders Of The World</p>
   </footer>
+
+  <script src="./assets/js/map.js"></script>
 </body>
 
 </html>

@@ -4,74 +4,99 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>7 Wonders Of The World</title>
-    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d'
+            }
+          }
+        }
+      }
+    </script>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
     <header>
-        <h1>7 Wonders Of The World</h1>
+        <h1 class="font-bold text-6xl text-clifford" >7 Wonders Of The World</h1>
         <!--insert image of map here--> 
 
     </header>
-    <main>
-        <section class="wonder" id=""> 
-            <h2></h2>
-            <h3></h3>
-            <p></p>
-            <h4></h4>
+    <main class = snap-x>
+        <section class="snap-center rounded-lg shadow-xl shadow-black-100 p-4 m-4 bg-white h-60 w-1/2 text-pretty" id="India"> 
+            <h2 class="font-thin text-4xl whitespace-normal pt-2">Taj Mahal</h2>
+            <h3 class="text-2xl">Agra, India</h3>
+            <h4 class="text-lg">1643 CE</h4>
+            <p class="text-base pt-3">The Taj Mahal represents the finest and most sophisticated example of indo-islamic architecture. Construction behan in 1632 AD, on the south bank of the Yamuna river in Agra, and was completed by 1648AD.</p>
+
           <!--<img src="" alt="">-->
 
         </section>
 
-        <section class="wonder" id=""> 
-            <h2></h2>
-            <h3></h3>
-            <p></p>
-            <h4></h4>
+        <section class="snap-center rounded-lg shadow-xl shadow-black-100 p-4 m-4 bg-white h-60 w-1/2 text-pretty" id="China"> 
+            <h2 class="font-thin text-4xl pt-2">Great Wall of China</h2>
+            <h3 class="text-2xl">China</h3>
+            <h4 class="text-lg">700 BCE</h4>
+            <p class="text-base pt-3">Length claimed to be 13,170 miles long
+              Creation began in the 7th century BCE and took over two millennia to finish construction</p>
+
           <!--<img src="" alt="">-->
 
         </section>
 
-        <section class="wonder" id=""> 
-            <h2></h2>
-            <h3></h3>
-            <p></p>
-            <h4></h4>
+        <section class="snap-center rounded-lg shadow-xl shadow-black-100 p-4 m-4 bg-white h-60 w-1/2 text-pretty" id="Petra"> 
+            <h2 class="font-thin text-4xl pt-2">Petra</h2>
+            <h3 class="text-2xl"> Ma'an, Jordan</h3>
+            <h4 class="text-lg">312 BCE</h4>
+            <p class="text-base pt-3">Noted carvers, the Nabataeans chiseled dwellings, temples, and tombs into the sandstone, which changed color with the shifting sun.
+              A major earthquake in 363 CE caused more difficulty, and after another tremor hit in 551, Petra was gradually abandoned</p>
+
           <!--<img src="" alt="">-->
 
         </section>
 
-        <section class="wonder" id=""> 
-            <h2></h2>
-            <h3></h3>
-            <p></p>
-            <h4></h4>
+        <section class="snap-center rounded-lg shadow-xl shadow-black-100 p-4 m-4 bg-white h-60 w-1/2 text-pretty" id="Rome"> 
+            <h2 class="font-thin text-4xl pt-2">Colosseum</h2>
+            <h3 class="text-2xl">Rome, Italy</h3>
+            <h4 class="text-lg">80 CE</h4>
+            <p class="text-base pt-3">The Colosseum in Rome was built in the first century by order of the Emperor Vespasian.
+              Perhaps most notable were gladiator fights, though men battling animals was also common.</p>
+
           <!--<img src="" alt="">-->
 
         </section>
 
-        <section class="wonder" id=""> 
-            <h2></h2>
-            <h3></h3>
-            <p></p>
-            <h4></h4>
+        <section class="snap-center rounded-lg shadow-xl shadow-black-100 p-4 m-4 bg-white h-60 w-1/2 text-pretty" id="Mexico"> 
+            <h2 class="font-thin text-4xl pt-2">Chichen Itza</h2>
+            <h3 class="text-2xl">Yucatan, Mexico</h3>
+            <h4 class="text-lg"> 600 CE</h4>
+            <p class="text-base pt-3">Structure contains a total of 365 steps
+              Among the most notable is the stepped pyramid El Castillo (“The Castle”), which rises 79 feet (24 meters) above the Main Plaza.</p>
+
           <!--<img src="" alt="">-->
 
         </section>
 
-        <section class="wonder" id=""> 
-            <h2></h2>
-            <h3></h3>
-            <p></p>
-            <h4></h4>
+        <section class="snap-center rounded-lg shadow-xl shadow-black-100 p-4 m-4 bg-white h-60 w-1/2 text-pretty" id="Peru"> 
+            <h2 class="font-thin text-4xl pt-2">Machu Picchu</h2>
+            <h3 class="text-2xl"> Cuzco Region, Peru</h3>
+            <h4 class="text-lg">1450 CE</h4>
+            <p class="text-base pt-3">Machu Picchu is one of the few major pre-Columbian ruins found nearly intact
+              Machu Picchu was believed to be the home to the “Virgins of the Sun,” women who lived in convents under a vow of chastity. Others think that it was likely a pilgrimage site, while some believe it was a royal retreat, but scholars are still questioning its purpose.</p>
+
           <!--<img src="" alt="">-->
 
         </section>
 
-        <section class="wonder" id=""> 
-            <h2></h2>
-            <h3></h3>
-            <p></p>
-            <h4></h4>
+        <section class="rounded-lg shadow-xl shadow-black-100 p-4 m-4 bg-white h-60 w-1/2 text-pretty" id="Brazil"> 
+            <h2 class="font-thin text-4xl pt-2">Christ the Redeemer</h2>
+            <h3 class="text-2xl"> Rio de Janeiro, Brazil</h3>
+            <h4 class="text-lg">1931 CE</h4>
+            <p class="text-base pt-3">Christ the Redeemer was designed by Heitor da Silva Costa, Carlos Oswald, and Paul Landowski.
+              The resulting monument stands 98 feet (30 meters) tall—not including its base, which is about 26 feet (8 meters) high—and its outstretched arms span 92 feet (28 meters).</p>
+
           <!--<img src="" alt="">-->
 
         </section>

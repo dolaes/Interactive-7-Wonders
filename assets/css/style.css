@@ -1,4 +1,4 @@
-/*:root {
+/* :root {
   --lightblue: #083cac;
   --font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 } 
@@ -37,7 +37,8 @@ h3 {
 p {
   color: var(--lightblue);
   font-family: var(--font-family);
-}*/
+} */
+
 
 html,
 body {

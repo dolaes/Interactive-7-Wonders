@@ -1,10 +1,10 @@
-const china = document.querySelector(".china");
-const petra = document.querySelector(".petra");
-const colosseum = document.querySelector(".colosseum");
-const chichen = document.querySelector(".chichen");
-const machu = document.querySelector(".machu");
-const taj = document.querySelector(".taj");
-const christ = document.querySelector(".christ");
+const china = document.querySelector(".chinaPin");
+const petra = document.querySelector(".petraPin");
+const colosseum = document.querySelector(".colosseumPin");
+const chichen = document.querySelector(".chichenPin");
+const machu = document.querySelector(".machuPin");
+const taj = document.querySelector(".tajPin");
+const christ = document.querySelector(".christPin");
 
 const popup = document.querySelector(".popup");
 let moreSection = "";
@@ -25,10 +25,9 @@ china.addEventListener("click", function() {
     const name = "Great Wall of China";
     const location = "Location: China";
     const built = "Built: 700 BCE";
-    const section = "#test";
+    const section = "#great-wall-of-china";
 
     changePopUp(name, location, built, section);
-    console.log(moreSection);
 });
 
 petra.addEventListener("click", function() {
@@ -37,10 +36,9 @@ petra.addEventListener("click", function() {
     const name = "Petra";
     const location = "Location: Ma'an, Jordan";
     const built = "Built: 312 BCE";
-    const section = "#test";
+    const section = "#petra";
 
     changePopUp(name, location, built, section);
-    console.log(moreSection);
 });
 
 colosseum.addEventListener("click", function() {
@@ -49,10 +47,9 @@ colosseum.addEventListener("click", function() {
     const name = "Colosseum";
     const location = "Location: Rome, Italy";
     const built = "Built: 80 CE";
-    const section = "#test";
+    const section = "#colosseum";
 
     changePopUp(name, location, built, section);
-    console.log(moreSection);
 });
 
 chichen.addEventListener("click", function() {
@@ -61,10 +58,9 @@ chichen.addEventListener("click", function() {
     const name = "Chichen Itza";
     const location = "Location: Yucatan, Mexico";
     const built = "Built: 600 CE";
-    const section = "#test";
+    const section = "#chichen-itza";
 
     changePopUp(name, location, built, section);
-    console.log(moreSection);
 });
 
 machu.addEventListener("click", function() {
@@ -73,10 +69,9 @@ machu.addEventListener("click", function() {
     const name = "Machu Picchu";
     const location = "Location: Cuzco Region, Peru";
     const built = "Built: 1450 CE";
-    const section = "#test";
+    const section = "#machu-picchu";
 
     changePopUp(name, location, built, section);
-    console.log(moreSection);
 });
 
 taj.addEventListener("click", function() {
@@ -85,10 +80,9 @@ taj.addEventListener("click", function() {
     const name = "Taj Mahal";
     const location = "Location: Agra, India";
     const built = "Built: 1643 CE";
-    const section = "#test";
+    const section = "#taj-mahal";
 
     changePopUp(name, location, built, section);
-    console.log(moreSection);
 });
 
 christ.addEventListener("click", function() {
@@ -97,10 +91,9 @@ christ.addEventListener("click", function() {
     const name = "Christ the Redeemer";
     const location = "Location: Rio de Janeiro, Brazil";
     const built = "Built: 1931 CE";
-    const section = "#test";
+    const section = "#christ-the-redeemer";
 
     changePopUp(name, location, built, section);
-    console.log(moreSection);
 });
 
 close.addEventListener("click", function() {

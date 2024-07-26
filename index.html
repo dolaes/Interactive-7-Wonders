@@ -24,7 +24,7 @@
 
 <body>
     <header>
-        <h1>7 Wonders Of The World</h1>
+        <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Interactive 7 Wonders of the World</h1>
         <section class="world-map">
             <img src="./assets/images/worldmap.svg" alt="world map">
             <div class="pin chinaPin"></div>
@@ -35,12 +35,16 @@
             <div class="pin tajPin"></div>
             <div class="pin christPin"></div>
 
-            <div class="popup">
-                <h2>null</h2>
-                <p id="location"></p>
-                <p id="built"></p>
-                <button id="close">CLOSE</button>
-                <button id="more">MORE</button>
+            <div class="popup max-w-xl rounded overflow-hidden shadow-lg">
+                <img class="w-full object-cover"
+                    src="https://images.pexels.com/photos/1653823/pexels-photo-1653823.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt=""></img>
+                <div class="px-6 py-4">
+                    <h2 class="content-center font-bold text-xl mb-2">null</h2>
+                    <p class="text-black-700 text-base" id="location"></p>
+                    <p class="text-black-700 text-base" id="built"></p>
+                    <button class="content-center bg-[#001D3D] hover:bg-white text-white font-semibold py-2 px-4 border border-white rounded shadow" id="more">MORE INFORMATION</button>
+                </div>
             </div>
         </section>
     </header>

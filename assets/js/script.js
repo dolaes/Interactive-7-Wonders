@@ -27,3 +27,4 @@ for (let i= 0 ; i <allGalaries.length ; i++){
       });
 
 }
+

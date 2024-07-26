@@ -1,4 +1,4 @@
-/*:root {
+/* :root {
   --lightblue: #083cac;
   --font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 } 
@@ -37,13 +37,14 @@ h3 {
 p {
   color: var(--lightblue);
   font-family: var(--font-family);
-}*/
+} */
 
 html,
 body {
   position: relative;
   height: 100%;
 }
+#more {display: none;}
 
 body {
   background: #eee;
@@ -76,6 +77,14 @@ body {
   object-fit: cover;
 }
 
+h2 {
+  font-size: 24px;
+  color: black;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+ 
+
 @media (max-width: 1200px) {
     .swiper-slide img {
       width: 100%;
@@ -104,10 +113,29 @@ body {
     }
   }
 
+  .choice {
+    background-color: #f9fafb; /* Default light gray background */
+}
+.choice:hover {
+    background-color: #e2e8f0; /* Light gray on hover */
+    cursor: pointer;
+}
+.choice.selected {
+    background-color: #4ade80; /* Green color when selected */
+    color: white;
+}
 
-  /* remove later */
-  /* .mySwiper {
-    outline: solid black 1px;
-    /* max-width: 92%; */
-    /* margin: 0 auto;
-  } */ 
+input:checked:has(> label) {
+  color: red;
+  background-color: green;
+}
+
+label:has(> input:checked) {
+  color: red;
+  background-color: green;
+}
+
+input:checked + span {
+  color: red;
+  background-color: black;
+}

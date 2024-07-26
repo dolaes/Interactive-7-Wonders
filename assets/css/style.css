@@ -1,50 +1,9 @@
-/* :root {
-  --lightblue: #083cac;
-  --font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-} 
-
-body {
-  background-color: #e5e5e5;
-  padding: 1.5em;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-}
-
-header {
-  padding-bottom: 1.5em;
-}
-
-h1 {
-  color: #000814;
-  font-family: var(--font-family);
-  padding: 3px;
-  text-decoration: underline 3px;
-  text-underline-offset: 12px;
-  letter-spacing: 0.05em;
-}
-
-h2{
-  font-family: var(--font-family);
-  color: #001d3d;
-
-}
-
-h3 {
-  color: #003566;
-}
-p {
-  color: var(--lightblue);
-  font-family: var(--font-family);
-} */
-
-
 html,
 body {
   position: relative;
   height: 100%;
 }
+#more {display: none;}
 
 body {
   background: #eee;
@@ -79,6 +38,14 @@ body {
   object-fit: cover;
 }
 
+h2 {
+  font-size: 24px;
+  color: black;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+ 
+
 @media (max-width: 1200px) {
     .swiper-slide img {
       width: 100%;
@@ -107,10 +74,29 @@ body {
     }
   }
 
+  .choice {
+    background-color: #f9fafb; /* Default light gray background */
+}
+.choice:hover {
+    background-color: #e2e8f0; /* Light gray on hover */
+    cursor: pointer;
+}
+.choice.selected {
+    background-color: #4ade80; /* Green color when selected */
+    color: white;
+}
 
-  /* remove later */
-  /* .mySwiper {
-    outline: solid black 1px;
-    /* max-width: 92%; */
-    /* margin: 0 auto;
-  } */ 
+input:checked:has(> label) {
+  color: red;
+  background-color: green;
+}
+
+label:has(> input:checked) {
+  color: red;
+  background-color: green;
+}
+
+input:checked + span {
+  color: red;
+  background-color: black;
+}

@@ -1,24 +1,32 @@
+:root {
+    --columbiablue: #D6EAFF;
+    --yaleblue: #003566;
+    --mikadoyellow: #FFC300;
+    --ivory: #FFFCEB;
+    --wine: #6c232f;
+}
+
 header {
+    background-color: var(--wine);
     box-sizing: border-box;
     font-family: sans-serif;
     margin: 0;
     padding: 0;
     border: 0;
-    height: 100%;
-    width: 100%;
     overflow: hidden;
 }
 
 header h1 {
+    margin: 10px;
+    padding: 10px;
     text-align: center;
+    color: white;
 }
 
 .world-map {
-    width: 100%;
-    max-width: 1800px;
-    margin: 0 auto;
+    background-color: var(--columbiablue);
     padding: 1em;
-    position: relative; 
+    position: relative;
 }
 
 .world-map img {
@@ -28,7 +36,7 @@ header h1 {
 }
 
 .pin {
-    background: green;
+    background: var(--mikadoyellow);
     position: absolute;
     width: 10px;
     height: 10px;
@@ -37,7 +45,7 @@ header h1 {
 
 .pin::before {
     content: '';
-    background: green;
+    background: var(--mikadoyellow);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -90,15 +98,15 @@ header h1 {
     top: 72.5%
 }
 
-.popup{
-    width: 500px;
-    height: 500px;
-    background-color: gray;
-    border-radius: 6px;
+.popup {
+    visibility: hidden;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 0 30px 30px;
-    visibility: hidden;
+    background-color: var(--ivory);
+}
+
+.popup h2 {
+    text-align: center;
 }

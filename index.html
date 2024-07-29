@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,36 +15,48 @@
                 }
             }
         }
-
     </script>
     <link rel="stylesheet" href="./assets/css/map.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-
 </head>
 
 <body>
     <header>
-        <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Interactive 7 Wonders of the World</h1>
+        <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl lg:text-6xl">Interactive 7 Wonders of the World</h1>
         <section class="world-map">
             <img src="./assets/images/worldmap.svg" alt="world map">
-            <div class="pin chinaPin"></div>
-            <div class="pin petraPin"></div>
-            <div class="pin colosseumPin"></div>
-            <div class="pin chichenPin"></div>
-            <div class="pin machuPin"></div>
-            <div class="pin tajPin"></div>
-            <div class="pin christPin"></div>
+            <div class="pin chinaPin">
+                <div class="pin animate-ping"></div>
+            </div>
+            <div class="pin petraPin">
+                <div class="pin animate-ping"></div>
+            </div>
+            <div class="pin colosseumPin">
+                <div class="pin animate-ping"></div>
+            </div>
+            <div class="pin chichenPin">
+                <div class="pin animate-ping"></div>
+            </div>
+            <div class="pin machuPin">
+                <div class="pin animate-ping"></div>
+            </div>
+            <div class="pin tajPin">
+                <div class="pin animate-ping"></div>
+            </div>
+            <div class="pin christPin">
+                <div class="pin animate-ping"></div>
+            </div>
 
             <div class="popup max-w-xl rounded overflow-hidden shadow-lg">
-                <img class="w-full object-cover"
-                    src="https://images.pexels.com/photos/1653823/pexels-photo-1653823.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                    alt=""></img>
+                <img class="w-full object-cover" src="" alt="null"></img>
                 <div class="px-6 py-4">
                     <h2 class="content-center font-bold text-xl mb-2">null</h2>
                     <p class="text-black-700 text-base" id="location"></p>
                     <p class="text-black-700 text-base" id="built"></p>
-                    <button class="content-center bg-[#001D3D] hover:bg-white text-white font-semibold py-2 px-4 border border-white rounded shadow" id="more">MORE INFORMATION</button>
+                    <button
+                        class="bg-[#001D3D] hover:bg-white text-white font-semibold py-2 px-4 border border-white rounded shadow"
+                        id="more">MORE INFORMATION</button>
                 </div>
             </div>
         </section>
@@ -53,8 +64,6 @@
 
     <main>
         <section class="7-wonders-of-the-world p-6 m-6" id="great-wall-of-china">
-            <h2>Great wall of china</h2>
-            <h3></h3>
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide"><img
@@ -84,7 +93,9 @@
                     <h2 class="font-bold text-4xl pt-2">Great Wall of China</h2>
                     <h3 class="font-thin text-3xl italic">Huairou, Beijing, China</h3>
                     <h4 class="text-2xl">700 BCE</h4>
-                    <p class="text-xl pt-3">The Chinese character 城, meaning city or fortress, is a phono-semantic compound of the "earth" radical 土 and phonetic 成, whose Old Chinese pronunciation has been reconstructed as *deŋ. Length claimed to be 13,170 miles long
+                    <p class="text-xl pt-3">The Chinese character 城, meaning city or fortress, is a phono-semantic
+                        compound of the "earth" radical 土 and phonetic 成, whose Old Chinese pronunciation has been
+                        reconstructed as *deŋ. Length claimed to be 13,170 miles long
                         Creation began in the 7th century BCE and took over two millennia to finish construction</p>
                 </div>
                 <div
@@ -92,16 +103,16 @@
                     <h2 class="font-bold text-4xl pt-2 text-slate-100">Fun Facts</h2>
                     <ul class="pt-3 text-lg text-slate-100">
                         <li class="pb-2"><b>Best Time To Visit:</b> September to October</li>
-                        <li class="pb-2"><b>Nearby Attractions:</b> The Forbidden City, Temple of Heaven, Tiananmen Square, Summer Palace, and more.</li>
-                        <li class="pb-2"><b>Other Things To Do In Beijing:</b> Explore Beihai Park, go shopping in Wangfujing, hiking in Mutianyu, and more.</li>
+                        <li class="pb-2"><b>Nearby Attractions:</b> The Forbidden City, Temple of Heaven, Tiananmen
+                            Square, Summer Palace, and more.</li>
+                        <li class="pb-2"><b>Other Things To Do In Beijing:</b> Explore Beihai Park, go shopping in
+                            Wangfujing, hiking in Mutianyu, and more.</li>
                     </ul>
                 </div>
             </section>
         </section>
 
         <section class="7-wonders-of-the-world p-6 m-6" id="petra">
-            <h2>Petra</h2>
-            <h3></h3>
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide"><img
@@ -145,16 +156,16 @@
                     <h2 class="font-bold text-4xl pt-2 text-slate-100">Fun Facts</h2>
                     <ul class="pt-3 text-lg text-slate-100">
                         <li class="pb-2"><b>Best Time To Visit:</b> March to May</li>
-                        <li class="pb-2"><b>Nearby Attractions:</b> Dead Sea, Wadi Rum, Mount Nebo, Roman Theater, Ajloun Castle, and more.</li>
-                        <li class="pb-2"><b>Other Things To Do In Jordan:</b> Visit the Jordan River, hike the Dana Biosphere Reserve, explore the Jordan Museum, and more.</li>
+                        <li class="pb-2"><b>Nearby Attractions:</b> Dead Sea, Wadi Rum, Mount Nebo, Roman Theater,
+                            Ajloun Castle, and more.</li>
+                        <li class="pb-2"><b>Other Things To Do In Jordan:</b> Visit the Jordan River, hike the Dana
+                            Biosphere Reserve, explore the Jordan Museum, and more.</li>
                     </ul>
                 </div>
             </section>
         </section>
 
         <section class="7-wonders-of-the-world p-6 m-6" id="colosseum">
-            <h2>The Colosseum</h2>
-            <h3></h3>
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide"><img
@@ -184,7 +195,9 @@
                     <h2 class="font-bold text-4xl pt-2">Colosseum</h2>
                     <h3 class="font-thin text-3xl italic">Rome, Italy</h3>
                     <h4 class="text-2xl">80 CE</h4>
-                    <p class="text-xl pt-3"> The name Colosseum is believed to be derived from a colossal statue of Nero on the model of the Colossus of Rhodes. The Colosseum in Rome was built in the first century by order of the
+                    <p class="text-xl pt-3"> The name Colosseum is believed to be derived from a colossal statue of Nero
+                        on the model of the Colossus of Rhodes. The Colosseum in Rome was built in the first century by
+                        order of the
                         Emperor
                         Vespasian.
                         Perhaps most notable were gladiator fights, though men battling animals was also common.</p>
@@ -194,8 +207,10 @@
                     <h2 class="font-bold text-4xl pt-2 text-slate-100">Fun Facts</h2>
                     <ul class="pt-3 text-lg text-slate-100">
                         <li class="pb-2"><b>Best Time To Visit:</b> October to April</li>
-                        <li class="pb-2"><b>Nearby Attractions:</b> Pantheon Temple, Roman Forum, Trevi Fountain, St. Peter’s Basilica, Vatican Museums, and more.</li>
-                        <li class="pb-2"><b>Other Things To Do In Rome:</b>Explore the nightlife at Piazza Navona, admire Michelangelo’s paintings at Sistine Chapel, explore the Palatine Hill, and more.</li>
+                        <li class="pb-2"><b>Nearby Attractions:</b> Pantheon Temple, Roman Forum, Trevi Fountain, St.
+                            Peter’s Basilica, Vatican Museums, and more.</li>
+                        <li class="pb-2"><b>Other Things To Do In Rome:</b>Explore the nightlife at Piazza Navona,
+                            admire Michelangelo’s paintings at Sistine Chapel, explore the Palatine Hill, and more.</li>
                     </ul>
                 </div>
             </section>
@@ -231,7 +246,9 @@
                     <h2 class="font-bold text-4xl pt-2">Chichen Itza</h2>
                     <h3 class="font-thin text-3xl italic">Yucatan, Mexico</h3>
                     <h4 class="text-2xl"> 600 CE</h4>
-                    <p class="text-xl pt-3">The Maya name "Chichen Itza" means "At the mouth of the well of the Itza." This derives from chi', meaning "mouth" or "edge", and chʼen or chʼeʼen, meaning "well". Structure contains a total of 365 steps
+                    <p class="text-xl pt-3">The Maya name "Chichen Itza" means "At the mouth of the well of the Itza."
+                        This derives from chi', meaning "mouth" or "edge", and chʼen or chʼeʼen, meaning "well".
+                        Structure contains a total of 365 steps
                         Among the most notable is the stepped pyramid El Castillo (“The Castle”), which rises 79 feet
                         (24
                         meters) above
@@ -242,8 +259,63 @@
                     <h2 class="font-bold text-4xl pt-2 text-slate-100">Fun Facts</h2>
                     <ul class="pt-3 text-lg text-slate-100">
                         <li class="pb-2"><b>Best Time To Visit:</b> December to March</li>
-                        <li class="pb-2"><b>Nearby Attractions:</b> Kabah, Pyramid of the Magician, Ik Kil, St. Ildephonsus Cathedral, Ek Balam, and more.</li>
-                        <li class="pb-2"><b>Other Things To Do In Yucatan:</b> Caving at Cenote Zaci, exploring the Sacred Cenote, visiting the Sayil, adoring the charm of Museo Maya, and more.</li>
+                        <li class="pb-2"><b>Nearby Attractions:</b> Kabah, Pyramid of the Magician, Ik Kil, St.
+                            Ildephonsus Cathedral, Ek Balam, and more.</li>
+                        <li class="pb-2"><b>Other Things To Do In Yucatan:</b> Caving at Cenote Zaci, exploring the
+                            Sacred Cenote, visiting the Sayil, adoring the charm of Museo Maya, and more.</li>
+                    </ul>
+                </div>
+            </section>
+        </section>
+
+        <section class="7 wonders of the world p-6 m-6" id="machu-picchu">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img
+                            src="https://images.pexels.com/photos/6848329/pexels-photo-6848329.jpeg?auto=compress&cs=tinysrgb&w=300"
+                            alt="machu picchu img"></div>
+                    <div class="swiper-slide"><img
+                            src="https://images.pexels.com/photos/4346944/pexels-photo-4346944.jpeg?auto=compress&cs=tinysrgb&w=300"
+                            alt="machu picchu img"></div>
+                    <div class="swiper-slide"><img
+                            src="https://images.pexels.com/photos/17606174/pexels-photo-17606174/free-photo-of-view-of-machu-picchu.png?auto=compress&cs=tinysrgb&w=300"
+                            alt="machu picchu img"></div>
+                    <div class="swiper-slide"><img
+                            src="https://images.pexels.com/photos/13080580/pexels-photo-13080580.jpeg?auto=compress&cs=tinysrgb&w=300"
+                            alt="machu picchu img"></div>
+                    <div class="swiper-slide"><img
+                            src="https://images.pexels.com/photos/16756571/pexels-photo-16756571/free-photo-of-alpacas-and-machu-picchu.jpeg?auto=compress&cs=tinysrgb&w=300"
+                            alt="machu picchu pic"></div>
+                    <div class="swiper-slide"><img
+                            src="https://images.pexels.com/photos/3532326/pexels-photo-3532326.jpeg?auto=compress&cs=tinysrgb&w=300"
+                            alt="machu picchu pic"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <section class="flex flex-row pt-4 pb-7" id="Peru">
+                <div
+                    class="bg-[#FFC300] rounded-lg shadow-2xl shadow-gray-500 p-4 m-4 w-full md:w-2/3 lg:w-1/2 text-pretty tracking-wide">
+                    <h2 class="font-bold text-4xl pt-2">Machu Picchu</h2>
+                    <h3 class="font-thin text-3xl italic"> Cuzco Region, Peru</h3>
+                    <h4 class="text-2xl">1450 CE</h4>
+                    <p class="text-xl pt-3">Machu Picchu is one of the few major pre-Columbian ruins found nearly
+                        intact
+                        Machu Picchu was believed to be the home to the “Virgins of the Sun,” women who lived in
+                        convents
+                        under a vow of
+                        chastity. Others think that it was likely a pilgrimage site, while some believe it was a royal
+                        retreat, but
+                        scholars are still questioning its purpose.</p>
+                </div>
+                <div
+                    class="bg-[#912F40]  rounded-lg shadow-2xl shadow-gray-500 p-4 m-4 w-full md:w-2/3 lg:w-1/2 text-pretty tracking-wide">
+                    <h2 class="font-bold text-4xl pt-2 text-slate-100">Fun Facts</h2>
+                    <ul class="pt-3 text-lg text-slate-100 ">
+                        <li class="pb-2"><b>Best Time To Visit:</b> April to October</li>
+                        <li class="pb-2"><b>Nearby Attractions:</b> Sacred Valley, Colca Canyon, Saksaywaman, Islas
+                            Ballestas, and more.</li>
+                        <li class="pb-2"><b>Other Things To Do In Peru:</b> Enjoy hiking and backpacking through Inca
+                            Trail, mountaineering at Huascarán mountains, hike through Cordillera Blanca, and more.</li>
                     </ul>
                 </div>
             </section>
@@ -292,18 +364,16 @@
                     <h2 class="font-bold text-4xl pt-2 text-slate-100">Fun Facts</h2>
                     <ul class="pt-3 text-lg text-slate-100">
                         <li class="pb-2"><b>Best Time To Visit:</b> November to March</li>
-                        <li class="pb-2"><b>Nearby Attractions:</b> Tomb of I’timad-ud-Daulah, Mehtab Bagh, Jama Mosque, Agra Fort, and more.</li>
-                        <li class="pb-2"><b>Other Things To Do In Giza:</b> Sightseeing in Agra, tour the Khas Mahal, shopping in Kinari Bazaar, visit the Jehangir’s Palace, and more.</li>
+                        <li class="pb-2"><b>Nearby Attractions:</b> Tomb of I’timad-ud-Daulah, Mehtab Bagh, Jama Mosque,
+                            Agra Fort, and more.</li>
+                        <li class="pb-2"><b>Other Things To Do In Giza:</b> Sightseeing in Agra, tour the Khas Mahal,
+                            shopping in Kinari Bazaar, visit the Jehangir’s Palace, and more.</li>
                     </ul>
                 </div>
             </section>
-
-
         </section>
 
         <section class="7 wonders of the world p-6 m-6" id="christ-the-redeemer">
-            <h2>Christ The Redeemer</h2>
-            <h3></h3>
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide"><img
@@ -346,79 +416,94 @@
                     <h2 class="font-bold text-4xl pt-2 text-slate-100">Fun Facts</h2>
                     <ul class="pt-3 text-lg text-slate-100">
                         <li class="pb-2"><b>Best Time To Visit:</b> December to March</li>
-                        <li class="pb-2"><b>Nearby Attractions:</b> Copacabana Beach, Sugarloaf Mountain, Ipanema, Maracanã Stadium, and more.</li>
-                        <li class="pb-2"><b>Other Things to Do In Rio de Janeiro:</b>Witness the Brazilian heritage at Santa Teresa, trek through Tijuca Forest – the largest urban forest, enjoy shopping in Leblon, and more.</li>
+                        <li class="pb-2"><b>Nearby Attractions:</b> Copacabana Beach, Sugarloaf Mountain, Ipanema,
+                            Maracanã Stadium, and more.</li>
+                        <li class="pb-2"><b>Other Things to Do In Rio de Janeiro:</b>Witness the Brazilian heritage at
+                            Santa Teresa, trek through Tijuca Forest – the largest urban forest, enjoy shopping in
+                            Leblon, and more.</li>
                     </ul>
                 </div>
 
             </section>
         </section>
-
-        <section class="7 wonders of the world p-6 m-6" id="machu-picchu">
-            <h2>Christ The Redeemer</h2>
-            <h3></h3>
-            <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide"><img
-                            src="https://images.pexels.com/photos/6848329/pexels-photo-6848329.jpeg?auto=compress&cs=tinysrgb&w=300"
-                            alt="machu picchu img"></div>
-                    <div class="swiper-slide"><img
-                            src="https://images.pexels.com/photos/4346944/pexels-photo-4346944.jpeg?auto=compress&cs=tinysrgb&w=300"
-                            alt="machu picchu img"></div>
-                    <div class="swiper-slide"><img
-                            src="https://images.pexels.com/photos/17606174/pexels-photo-17606174/free-photo-of-view-of-machu-picchu.png?auto=compress&cs=tinysrgb&w=300"
-                            alt="machu picchu img"></div>
-                    <div class="swiper-slide"><img
-                            src="https://images.pexels.com/photos/13080580/pexels-photo-13080580.jpeg?auto=compress&cs=tinysrgb&w=300"
-                            alt="machu picchu img"></div>
-                    <div class="swiper-slide"><img
-                            src="https://images.pexels.com/photos/16756571/pexels-photo-16756571/free-photo-of-alpacas-and-machu-picchu.jpeg?auto=compress&cs=tinysrgb&w=300"
-                            alt="Christ The Redemmer pic"></div>
-                    <div class="swiper-slide"><img
-                            src="https://images.pexels.com/photos/3532326/pexels-photo-3532326.jpeg?auto=compress&cs=tinysrgb&w=300"
-                            alt="Christ The Redemmer pic"></div>
-                </div>
-                <div class="swiper-pagination"></div>
-            </div>
-            <section class="flex flex-row pt-4 pb-7" id="Peru">
-                <div
-                    class="bg-[#FFC300] rounded-lg shadow-2xl shadow-gray-500 p-4 m-4 w-full md:w-2/3 lg:w-1/2 text-pretty tracking-wide">
-                    <h2 class="font-bold text-4xl pt-2">Machu Picchu</h2>
-                    <h3 class="font-thin text-3xl italic"> Cuzco Region, Peru</h3>
-                    <h4 class="text-2xl">1450 CE</h4>
-                    <p class="text-xl pt-3">Machu Picchu is one of the few major pre-Columbian ruins found nearly
-                        intact
-                        Machu Picchu was believed to be the home to the “Virgins of the Sun,” women who lived in
-                        convents
-                        under a vow of
-                        chastity. Others think that it was likely a pilgrimage site, while some believe it was a royal
-                        retreat, but
-                        scholars are still questioning its purpose.</p>
-                </div>
-                <div
-                    class="bg-[#912F40]  rounded-lg shadow-2xl shadow-gray-500 p-4 m-4 w-full md:w-2/3 lg:w-1/2 text-pretty tracking-wide">
-                    <h2 class="font-bold text-4xl pt-2 text-slate-100">Fun Facts</h2>
-                    <ul class="pt-3 text-lg text-slate-100 ">
-                        <li class="pb-2"><b>Best Time To Visit:</b> April to October</li>
-                        <li class="pb-2"><b>Nearby Attractions:</b> Sacred Valley, Colca Canyon, Saksaywaman, Islas Ballestas, and more.</li>
-                        <li class="pb-2"><b>Other Things To Do In Peru:</b> Enjoy hiking and backpacking through Inca Trail, mountaineering at Huascarán mountains, hike through Cordillera Blanca, and more.</li>
-                    </ul>
-                </div>
-            </section>
-        </section>
-
-        
-
     </main>
+
+    <footer class="bg-[#912F40] p-3">
+        <h2 class="mb-4 font-semibold text-lg text-white dark:text-white">7 Wonders of the World Checklist</h2>
+        <ul
+            class="items-center w-full text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg sm:flex dark:bg-gray-700 dark:border-gray-600 dark:text-white">
+            <li class="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
+                <div class="flex items-center ps-3">
+                    <input id="china-checkbox-list" type="checkbox" value=""
+                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                    <label for="china-checkbox-list"
+                        class="w-full py-3 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Great Wall of
+                        China</label>
+                </div>
+            </li>
+            <li class="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
+                <div class="flex items-center ps-3">
+                    <input id="petra-checkbox-list" type="checkbox" value=""
+                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                    <label for="petra-checkbox-list"
+                        class="w-full py-3 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Petra</label>
+                </div>
+            </li>
+            <li class="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
+                <div class="flex items-center ps-3">
+                    <input id="colosseum-checkbox-list" type="checkbox" value=""
+                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                    <label for="colosseum-checkbox-list"
+                        class="w-full py-3 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Colosseum</label>
+                </div>
+            </li>
+            <li class="w-full dark:border-gray-600">
+                <div class="flex items-center ps-3">
+                    <input id="chichen-checkbox-list" type="checkbox" value=""
+                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                    <label for="chichen-checkbox-list"
+                        class="w-full py-3 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Chichen
+                        Itza</label>
+                </div>
+            </li>
+            <li class="w-full dark:border-gray-600">
+                <div class="flex items-center ps-3">
+                    <input id="machu-checkbox-list" type="checkbox" value=""
+                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                    <label for="machu-checkbox-list"
+                        class="w-full py-3 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Machu
+                        Picchu</label>
+                </div>
+            </li>
+            <li class="w-full dark:border-gray-600">
+                <div class="flex items-center ps-3">
+                    <input id="taj-checkbox-list" type="checkbox" value=""
+                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                    <label for="taj-checkbox-list"
+                        class="w-full py-3 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Taj Mahal</label>
+                </div>
+            </li>
+            <li class="w-full dark:border-gray-600">
+                <div class="flex items-center ps-3">
+                    <input id="christ-checkbox-list" type="checkbox" value=""
+                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                    <label for="christ-checkbox-list"
+                        class="w-full py-3 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Christ the
+                        Redeemer</label>
+                </div>
+            </li>
+        </ul>
+    
+    </footer>
+
+    <!-- Back to top button -->
+    <button class="z-40 p-3 fixed bottom-4 right-4 bg-[#003566] text-white rounded-full transition duration-300 hover:bg-gray-700 hover:text-gray-200" id="toTop">TOP</button>
+
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./assets/js/script.js"></script>
     <script src="./assets/js/map.js"></script>
     <script src="./assets/js/form.js"></script>
-    <footer>
-        <p>© 2024 7 Wonders Of The World</p>
-
-    </footer>
 </body>
 
 </html>

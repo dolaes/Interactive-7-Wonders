@@ -11,6 +11,7 @@ let moreSection = "";
 
 const close = document.querySelector("#close");
 const more = document.querySelector("#more");
+const toTop = document.querySelector("#toTop");
 
 function changePopUp(name, location, built, section, image) {
     popup.querySelector('img').src = image;
@@ -38,7 +39,7 @@ china.addEventListener("click", function(event) {
 petra.addEventListener("click", function(event) {
     popup.style.visibility = "visible";
 
-    const image = "https://images.pexels.com/photos/720254/pexels-photo-720254.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
+    const image = "https://images.pexels.com/photos/18717382/pexels-photo-18717382/free-photo-of-facade-of-the-treasury-in-petra.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
     const name = "Petra";
     const location = "<b>Location:</b> Ma'an, Jordan";
     const built = "<b>Built:</b> 312 BCE";
@@ -135,4 +136,8 @@ function closePopUp(){
 more.addEventListener("click", function() {
     popup.style.visibility = "hidden";
     document.querySelector(moreSection).scrollIntoView({behavior: 'smooth'});
+});
+
+toTop.addEventListener("click", function() {
+    document.body.scrollIntoView({behavior: 'smooth'});
 });

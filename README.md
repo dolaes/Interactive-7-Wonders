@@ -9,9 +9,13 @@ An interactive map of the 7 Wonders of the World. Hovering over the different lo
 ![App Screenshot](./assets/images/checklist.png)
 
 ## Technology Used
-**Developed Using:** HTML, CSS, JavaScript, TailwindCSS
+**Developed Using:** HTML, CSS, JavaScript, TailwindCSS, Swiper
 
 ## 🔗 Links
 **GitHub Repository:** https://github.com/dolaes/Interactive-7-Wonders
 
 **GitHub Deployment:** https://dolaes.github.io/Interactive-7-Wonders/
+
+**Figma Jam Board:** https://www.figma.com/board/Z1JwgbB6OpSMKcv9W63lWE/Project-1-Ideation?node-id=0-1&t=fxnVT32wPDlN54w0-1
+
+**Figma Wireframe:** https://www.figma.com/design/ULtthZFmdklGxhRCgOA0vi/Project-1?node-id=46-4&m=dev&t=A1zIZWAqqKaYHPmT-1
